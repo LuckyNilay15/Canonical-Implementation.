@@ -1,0 +1,12 @@
+{
+    "CLIENT_A": {
+        "apply_fraud_check": true,
+        "max_transaction_limit": 5000.0,
+        "strategy_route": "BANK_STRATEGY"
+    },
+    "CLIENT_B": {
+        "apply_fraud_check": false,
+        "max_transaction_limit": 1000.0,
+        "strategy_route": "WALLET_STRATEGY"
+    }
+}
